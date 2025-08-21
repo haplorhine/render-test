@@ -34,7 +34,7 @@ app.use(express.json())
 app.use(requestLogger)
 
 app.get('/', (request, response) => {
-  response.send('<h1>Hello World!</h1>')
+  response.send('<h1>Hallo Welt!</h1>')
 })
 
 app.get('/api/notes', (request, response) => {
